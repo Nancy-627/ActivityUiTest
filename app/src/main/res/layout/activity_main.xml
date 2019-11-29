@@ -21,20 +21,20 @@
     <Button
         android:id="@+id/button01"
         android:layout_width="280dp"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:drawableLeft="@drawable/ic_user"
         android:text="用户名登录"
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:drawablePadding="-80dp"
-        android:paddingLeft="80dp"
+        android:paddingLeft="60dp"
         android:background="@drawable/shape_btn"
         />
     <Button
         android:id="@+id/button02"
         android:layout_width="280dp"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:drawableLeft="@drawable/account_sina"
         android:text="新浪微博"
         android:textSize="18sp"
@@ -48,7 +48,7 @@
     <Button
         android:id="@+id/button03"
         android:layout_width="280dp"
-        android:layout_height="55dp"
+        android:layout_height="wrap_content"
         android:drawableLeft="@drawable/account_tencent"
         android:text="腾讯微博"
         android:textSize="18sp"
@@ -60,8 +60,8 @@
 
         />
 
-    <TextView
-        android:id="@+id/text_view"
+    <Button
+        android:id="@+id/button04"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -69,6 +69,7 @@
         android:textSize="18sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
+        android:background="@drawable/shape_null"
         />
 
 

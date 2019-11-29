@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_register"
+    android:orientation="vertical"
+    tools:context=".ActivitySignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:drawableLeft="@drawable/ic_back_register"
+        android:layout_marginTop="25dp"
+        android:drawablePadding="70dp"
+        android:paddingLeft="10dp"
+        android:textSize="25sp"
+        android:textColor="#4169E1"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="用户名"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_marginTop="100dp"
+        android:drawablePadding="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_btn"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:inputType="numberPassword"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="20dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape_btn"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="18sp"
+        android:textColor="#292421"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_btn"/>
+
+
+</LinearLayout>
